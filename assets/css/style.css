@@ -1,0 +1,126 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #f5f5f5;
+
+  /*background-color: #76BEBE;*/
+  margin: 0px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: #76BEBE;
+  color: white;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+ul li{ 
+  list-style: none;
+  width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form{
+  display: grid;
+  grid-auto-flow: row;
+  max-width: 500px;
+  padding-left: 40px;
+}
+
+label{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+input{
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.57);
+  height: 25px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+input::placeholder{
+  color: rgba(125, 125, 125, 0.57);
+  height: 25px;
+}
+
+section{
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #f5f5f5;
+  height: 100%;
+  margin-top: 20px;
+}
+
+
+th{
+  background-color:#000000;
+  color: white;
+  min-width: 110px;
+  border: 1px solid #767373;
+  margin: 0px;
+
+}
+
+td{
+  text-align: center;
+  margin: 0px;
+  border: 1px solid #000000;
+}
+
+.subheader{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 33vw;
+  background-color: white;
+  align-items: center;
+
+}
+
+
+.btn{
+  
+}
+
+.logo{
+  width: 200px;
+  margin-right: 0px;
+}
+.titles{
+  padding-bottom: 0px;
+  text-align: center;
+}
+.title{
+  margin-left: 20px;
+  color: #CF509C;
+  margin-bottom: 0px;
+}
+.subtitle{
+  margin-top: 0px;
+}
+
+.btn-submit{
+  background-color: #76BEBE;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+
+

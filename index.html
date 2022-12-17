@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <title>Cadastro de Medicamentos</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>Home</li>
+      <li>Cadastro de medicamentos</li>
+      <li>Cadastro de vacinas</li>
+      <li>Cadastro de cosméticos</li>
+    </ul>
+  </header>
+  <div class="subheader">
+    <img class="logo" src="/assets/images/logo-medicine.svg" alt="logo">
+    <div class="titles">
+      <h1 class="title">Cadastro de Medicamentos</h1>
+      <h3 class="subtitle">Farmácia da Gente</h3>
+    </div>
+  </div>
+
+  <section id="section-form">
+    <div id="form">
+      <form onsubmit="addMed()">
+        <label>Nome do medicamento:</label>
+        <input type="text" placeholder="Insira o nome do medicamento" id="fName" name="medName" autocomplete="off" required>
+  
+        <label>Quantidade disponível:</label>
+        <input type="text" placeholder="Insira a quantidade disponível" id=" fQtd" name="medQtd" autocomplete="off" required>
+  
+        <label>Classe de medicamento:</label>
+        <input type="text" placeholder="Insira a classe do medicamento" id="fClass" name="medClass" autocomplete="off" required style="margin-bottom: 10px;">
+
+          <button class="btn-submit" type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div>
+      <table id="dataTable">
+        <tr>
+          <th>ID</th>
+          <th>Medicamento</th>
+          <th>Quantidade</th>
+          <th>Classe do medicamento</th>
+          <th>Ação</th>
+        </tr>
+      </table>
+
+
+    </div>
+  </section>
+  
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
